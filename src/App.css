@@ -1,0 +1,199 @@
+.color1{color:#f2e307}
+.color2{color:#f2cb05}
+.color3{color:#f2de77}
+.color4{color:#f2e8b3}
+
+@keyframes fade-up{
+  0%{
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down{
+  0%{
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color:#F4FBFB;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root h2{
+  font-weight: 800;
+}
+
+#root h1{
+  font-family: 'Raleway';
+  font-weight: 900;
+}
+
+#root p{
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+#root h4{
+  font-weight: 600;
+}
+
+#root button{
+  font-weight: 600;
+}
+
+#root a{
+  font-weight: 500;
+}
+
+.navbarControl a{
+color: black;
+}
+
+#root .navbarControl a{
+  font-weight: 600;
+color: black;
+}
+
+#root .navbarControl .droptext{
+  color:black
+}
+
+
+.body{
+  background-color: rgb(23, 22, 22);
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  .orangeback{
+  background-color: #ebb085;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-bannertop{
+  background: rgb(242,232,179);
+background: radial-gradient(circle, rgba(242,232,179,1) 0%, rgba(242,222,119,1) 100%);
+}
+
+.bg-bannerbottom{
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(242,232,179,1) 100%);
+}
+
+#root .dashed{
+  text-decoration: underline;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.circle{
+  width: 25rem;
+  height: 25rem;
+  background-color: #f2de77;
+  border-radius: 90%;
+  position:'relative';
+  box-shadow: 5px -8px rgba(0, 0, 0, 0.278);
+}
+
+#root .circleimg{
+  width:100%;
+ position:absolute;
+  left:40px;
+   top:40px;
+}
+
+#root .modificador button{
+  background-color: #f2de77;
+  color: black;
+}
+
+#root .colRedes img{
+  width: 2rem;
+  padding: 2px;
+}
+
+
+
+#root .cardPropiedades{
+  width: 10rem;
+  height: 12rem;
+  background-color: white;
+  color: #f2cb05;
+  padding: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.278);
+}
+
+#root .cardPropiedades p{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+}
+
+#root .colMedBeneficios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root .colDerImgRelax{
+  background-image: url(./assets/relax.jpg);
+  background-position: 90% 70%;
+  background-size: cover;
+}
+
+#root .dropshadow{
+  filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.278));
+}
+
+@media (max-width: 556px) {
+  .circle{
+  width: 15rem;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  box-shadow: 5px -8px rgba(0, 0, 0, 0.278);
+  }
+
+  #root .circleimg{
+    left: 10px;
+
+  }
+}
+
+@media (max-width: 298px) {
+  .circle{
+  width: 12rem;
+  height: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  }
+
+  #root .circleimg{
+    left: 10px;
+  }
+}
+
+.bg-degradado{
+  background: rgb(242,222,119);
+background: linear-gradient(90deg, rgba(242,222,119,1) 0%, rgba(242,222,119,0.8715861344537815) 13%, rgba(242,222,119,0.6418942577030813) 28%, rgba(255,255,255,0.7819502801120448) 71%);
+}
